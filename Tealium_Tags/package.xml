@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<package>
+    <name>Tealium_Tags</name>
+    <version>2.0.6</version>
+    <stability>stable</stability>
+    <license>Tealium License Agreement</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Tealium&#x2019;s tag management makes it easy for marketers to deploy and manage their third-party vendor tags</summary>
+    <description>Tealium is the leader in enterprise tag management, serving some of the most demanding customers in the world. Tealium&#x2019;s web-based services make it easy for digital marketers to deploy and manage their third-party vendor tags, and then correlate the data those tags generate into an actionable source. Using Tealium, organizations can streamline their digital marketing operations, improve web site performance, cut costs, and power their big data initiatives. The company differentiates itself through ease of use, scale and performance, and fanatical customer support. Select clients include Petco, A+E Networks, Fox Networks Group, Urban Outfitters, and many more! More than ever, today&#x2019;s marketers are turning to digital solutions to improve efficiency and results. Tags &#x2013; commonly known as tracking pixels &#x2013; are becoming the data collection mechanism of choice, leaving marketers reliant on them to gather the right data about visitor activity and take action to improve their experience. But the process of deploying and managing vendor tags can be a nightmare for marketers, due to the technical nature associated with tagging, heavy costs, impact on site performance, and the dependence of IT resources to make changes. Tealium puts digital marketers in control of their online solutions, making it easy to add, edit, or remove any vendor without requesting assistance from IT. In addition, Tealium provides a rich source of all of an organization&#x2019;s digital data to help marketers improve the effectiveness of their customer acquisition campaigns.</description>
+    <notes>2.0.6&#xD;
+UDO will now be pretty printed for readability&#xD;
+Added comments to code to improve long term maintainability&#xD;
+&#xD;
+2.0.4&#xD;
+fixed one page checkout&#xD;
+&#xD;
+2.0.3&#xD;
+Fixed warnings for REQUEST isset()&#xD;
+re-added page_type and page_name for order confirmation&#xD;
+&#xD;
+2.0.2&#xD;
+Fix typos&#xD;
+&#xD;
+2.0.1&#xD;
+Fix for extended UDO rendering blank page&#xD;
+&#xD;
+2.0.0&#xD;
+Added external script support and refactored&#xD;
+&#xD;
+1.2.0&#xD;
+Added UI admin toggle for onePage Checkout&#xD;
+&#xD;
+1.1.1&#xD;
+Fixed pages not rendering&#xD;
+&#xD;
+1.1.0&#xD;
+Added support for alternate checkout pages&#xD;
+&#xD;
+1.0.2&#xD;
+Added html/text help to admin config&#xD;
+&#xD;
+1.0.1&#xD;
+Fixed arrays that were rendering as strings&#xD;
+&#xD;
+1.0.0&#xD;
+refactored based on Tealium class&#xD;
+added support for external UDO definition&#xD;
+added support for diagnostic pixel&#xD;
+&#xD;
+0.4.4d&#xD;
+added output of diagnostic pixel&#xD;
+&#xD;
+0.4.4&#xD;
+strip commas from all dollar values&#xD;
+&#xD;
+0.4.3&#xD;
+fix for bad array on order page&#xD;
+&#xD;
+0.4.2&#xD;
+added simple discount array&#xD;
+&#xD;
+0.4.0&#xD;
+fix for individual discounts and number formats&#xD;
+&#xD;
+0.3.1&#xD;
+fix for configurable product arrays&#xD;
+&#xD;
+0.3.0&#xD;
+fix for missing support message&#xD;
+&#xD;
+0.2.0&#xD;
+fix for product page tag syntax&#xD;
+&#xD;
+0.1.0&#xD;
+initial release&#xD;
+</notes>
+    <authors><author><name>Tealium Inc.</name><user>tealium</user><email>tech-partners@tealium.com</email></author></authors>
+    <date>2016-06-17</date>
+    <time>20:58:24</time>
+    <contents><target name="magelocal"><dir name="Tealium"><dir name="Tags"><dir name="Helper"><file name="Data.php" hash="8665c2092e8fb27f81454396d3498496"/><file name="Observer.php" hash="4f8f5d2bd6ddf3ae2fd523408dcc38cf"/></dir><dir name="etc"><file name="LICENSE.txt" hash="46a50aab74d5f34fc9ef3cf2c63a4549"/><file name="adminhtml.xml" hash="209d26d3a4a661e0f8d0c48382475f3b"/><file name="config.xml" hash="b500eace2e25032f2bea3920ce029f9a"/><file name="system.xml" hash="5a13918f5c70bba9293bbc11e126d03f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Tealium_Tags.xml" hash="2d9d09880fb7ccec2f41e052dcda4ad6"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="tealium_tags.xml" hash="aaa66b4bf775bbeb172eae1e84688491"/></dir><dir name="template"><dir name="tealium_tags"><file name="base.phtml" hash="35a83f64123aeae0dadba20482d3e5a3"/><file name="catalog_product_compare_index.phtml" hash="bd1255dfd1f04a2b9ec94e067606afe1"/><file name="catalogsearch_advanced_result_index.phtml" hash="61abd781b266f1e5fc25f4536fa54deb"/><file name="catalogsearch_result_index.phtml" hash="06f6f542261198fbddb25404af6b6b4d"/><file name="catalogsearch_term_popular.phtml" hash="8b97d638be4bab2d1f5e8f2cdf2600df"/><file name="category.phtml" hash="6f15ceb5ff693cdb647f1e9e796a25b7"/><file name="checkout_cart_index.phtml" hash="a4338bd66b9759dfd94e2d86a62f19b7"/><file name="checkout_onepage.phtml" hash="5816f552aacd6ae49e33334706eb8c41"/><file name="checkout_success.phtml" hash="7c29182bce05042ad5b2732144cfd493"/><file name="cms.phtml" hash="a2a8b08e9cd68c9d34f44510aef8ac8c"/><file name="customer.phtml" hash="355fc74b16dec9cf73e04b956a1dc476"/><file name="generic.phtml" hash="6c343aa7e5811828c74bfead157a1019"/><file name="guest_sales.phtml" hash="55b04109cdc11d9ae00375440af03568"/><file name="product.phtml" hash="2a4ca7ca1a571881f54812a1ded23ead"/><file name="product_send.phtml" hash="63beef471c5f9698755a7ef714940609"/><file name="seo.phtml" hash="a2a8b08e9cd68c9d34f44510aef8ac8c"/><file name="tag_list_index.phtml" hash="cad309bd6de5ca342e58a44dadf75134"/><file name="tag_product_list.phtml" hash="4672fbf5d57a3c4b31b9f84dc8ac547e"/></dir></dir></dir></dir></dir></target><target name="magelib"><dir name="Tealium"><file name="Tealium.php" hash="0ab8e096f7333c74fa98566d943b96e0"/><file name="TealiumCustomData.php" hash="94d978966cc76c7cb34651caa23432f5"/><file name="TealiumInit.php" hash="eec23caddb42e215a61ca4b404242575"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

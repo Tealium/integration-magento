@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tealium_Tags>
+            <active>true</active>
+            <codePool>local</codePool>
+            <version>2.0.6</version>
+        </Tealium_Tags>
+    </modules>
+</config>

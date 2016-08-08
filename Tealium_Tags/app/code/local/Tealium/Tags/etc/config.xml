@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Tealium_Tags>
+            <version>2.0.6</version>
+        </Tealium_Tags>
+    </modules>
+    <global>
+        <helpers>
+            <tealium_tags>
+                <class>Tealium_Tags_Helper</class>
+            </tealium_tags>
+        </helpers>
+        <events>
+            <controller_front_send_response_before>
+                <observers>
+                    <tealium_tags>
+                        <type>singleton</type>
+                        <class>
+                            Tealium_Tags_Helper_Observer
+                        </class>
+                        <method>apiHandler</method>
+                    </tealium_tags>
+                </observers>
+            </controller_front_send_response_before>
+        </events>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <tealium_tags>
+                    <file>tealium_tags.xml</file>
+                </tealium_tags>
+            </updates>
+        </layout>
+    </frontend>
+</config> 
