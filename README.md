@@ -16,7 +16,7 @@ Included in the extension is an example PHP file for customizing the datalayer.
 
 You can see this file on GitHub using the link below
 
-https://github.com/Tealium/integration-adobe-aem/tree/master/tealium-examples
+https://github.com/Tealium/integration-magento/blob/master/Tealium_Tags/lib/Tealium/TealiumCustomData.php
 
 
 ## License
