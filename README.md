@@ -12,7 +12,7 @@ Once installed, instructions for customizing can be found in the configuration f
 
 There's also an included documentation folder that contains some basic documentation, including a sequence diagram of how the extension includes the datalayer on a page on a page request.
 
-https://github.com/Tealium/integration-magento/blob/master/Tealium_Tags/documentation/
+https://github.com/Tealium/integration-magento/tree/master/documentation
 
 ## Examples
 
