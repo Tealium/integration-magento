@@ -1,0 +1,66 @@
+2.0.6
+UDO will now be pretty printed for readability
+Added comments to code to improve long term maintainability
+
+2.0.4
+fixed one page checkout
+
+2.0.3
+Fixed warnings for REQUEST isset()
+re-added page_type and page_name for order confirmation
+
+2.0.2
+Fix typos
+
+2.0.1
+Fix for extended UDO rendering blank page
+
+2.0.0
+Added external script support and refactored
+
+1.2.0
+Added UI admin toggle for onePage Checkout
+
+1.1.1
+Fixed pages not rendering
+
+1.1.0
+Added support for alternate checkout pages
+
+1.0.2
+Added html/text help to admin config
+
+1.0.1
+Fixed arrays that were rendering as strings
+
+1.0.0
+refactored based on Tealium class
+added support for external UDO definition
+added support for diagnostic pixel
+
+0.4.4d
+added output of diagnostic pixel
+
+0.4.4
+strip commas from all dollar values
+
+0.4.3
+fix for bad array on order page
+
+0.4.2
+added simple discount array
+
+0.4.0
+fix for individual discounts and number formats
+
+0.3.1
+fix for configurable product arrays
+
+0.3.0
+fix for missing support message
+
+0.2.0
+fix for product page tag syntax
+
+0.1.0
+initial release

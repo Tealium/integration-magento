@@ -10,6 +10,10 @@ https://www.magentocommerce.com/magento-connect/tealium-tag-management-1-1.html
 
 Once installed, instructions for customizing can be found in the configuration for this extension in the admin panel.
 
+There's also an included documentation folder that contains some basic documentation, including a sequence diagram of how the extension includes the datalayer on a page on a page request.
+
+https://github.com/Tealium/integration-magento/blob/master/Tealium_Tags/documentation/
+
 ## Examples
 
 Included in the extension is an example PHP file for customizing the datalayer.
